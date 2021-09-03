@@ -33,4 +33,4 @@ The goal of this exercise is to create classes to represent those various types 
 1. `CreativeSmackTalkingPlayer`
 1. `SoreLoserPlayer`
 1. `UpperHalfPlayer`
-1. `SoreLoserUpperHalfPlayer`
+1. `SoreLoserUpperHalfPlayer`# PR-ShootingDice
