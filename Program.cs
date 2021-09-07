@@ -29,9 +29,12 @@ namespace ShootingDice
             CreativeSmackTalkingPlayer creativeSmackTalker = new CreativeSmackTalkingPlayer();
             creativeSmackTalker.Name = "Captian grumpy";
 
+            SoreLoserPlayer soreLoser = new SoreLoserPlayer();
+            soreLoser.Name = "Stinky";
+
 
             List<Player> players = new List<Player>() {
-                player1, player2, player3, large, smackTalker, creativeSmackTalker
+                player1, player2, player3, large, smackTalker, creativeSmackTalker, soreLoser
             };
             PlayMany(players);
 
