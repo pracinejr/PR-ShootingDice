@@ -32,7 +32,7 @@ namespace ShootingDice
 
             Console.WriteLine("-------------------");
             
-            Player smackTalker = new Player();
+            SmackTalkingPlayer smackTalker = new SmackTalkingPlayer();
             smackTalker.Name = "Sir Jerk";
 
             player1.Play(smackTalker);
