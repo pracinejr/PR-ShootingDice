@@ -32,12 +32,15 @@ namespace ShootingDice
             SoreLoserPlayer soreLoser = new SoreLoserPlayer();
             soreLoser.Name = "Stinky";
 
-            SoreLoserUpperHalfPlayer upperHalfPlayer = new SoreLoserUpperHalfPlayer();
-            upperHalfPlayer.Name = "Cheater";
+            SoreLoserUpperHalfPlayer soreUpperHalfPlayer = new SoreLoserUpperHalfPlayer();
+            soreUpperHalfPlayer.Name = "Cheater";
+
+            UpperHalfPlayer upperHalfDude = new UpperHalfPlayer();
+            upperHalfDude.Name = "Half Cheater";
 
 
             List<Player> players = new List<Player>() {
-                player1, player2, player3, large, smackTalker, creativeSmackTalker, soreLoser, upperHalfPlayer
+                player1, player2, player3, large, smackTalker, creativeSmackTalker, soreLoser, soreUpperHalfPlayer, upperHalfDude
             };
             PlayMany(players);
 
